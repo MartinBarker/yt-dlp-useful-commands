@@ -1,0 +1,1 @@
+yt-dlp --download-archive downloaded.txt --split-chapters --no-post-overwrites -ciwx -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 --output "%(title)s - %(uploader)s.%(ext)s" --embed-thumbnail https://www.youtube.com/playlist?list=PLpQuORMLvnZalrprMzVbej685R_w7D6os
